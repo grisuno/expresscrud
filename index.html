@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Create Database</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Optional theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1>Create Database</h1>
+      <form id="create-db-form">
+        <div class="form-group">
+          <label for="db-name" class="form-label">Database Name</label>
+          <input type="text" class="form-control" id="db-name" name="db-name" required>
+        </div>
+  
+        <div class="row g-3">
+          <div class="col-12">
+            <hr class="my-4">
+            <h3 class="mb-4">Fields:</h3>
+          </div>
+  
+          <div id="fieldsContainer">
+            <div class="col-md-6 col-lg-4 field">
+              <label for="fieldName" class="form-label">Field Name:</label>
+              <input type="text" class="form-control mb-2" name="fieldName" required>
+  
+              <label for="fieldType" class="form-label">Field Type:</label>
+              <select name="fieldType" class="form-select mb-2">
+                <option value="INTEGER">INTEGER</option>
+                <option value="STRING">STRING</option>
+                <option value="BOOLEAN">BOOLEAN</option>
+                <option value="DATE">DATE</option>
+              </select>
+  
+              <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" name="isPrimaryKey" id="isPrimaryKey">
+                <label for="isPrimaryKey" class="form-check-label">Primary Key</label>
+              </div>
+  
+              <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" name="allowNull" id="allowNull" checked>
+                <label for="allowNull" class="form-check-label">Allow Null</label>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-12">
+            <button type="button" onclick="addField()" class="btn btn-primary">Add Field</button>
+          </div>
+        </div>
+  
+        <hr class="my-4">
+  
+        <button type="submit" class="btn btn-primary">Generate JSON</button>
+      </form>
+    </div>
+  
+      <!-- jQuery and Bootstrap JS -->
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNSLZ2e"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"
+      ></script>
+      <script src="app.js"></script>
+    </body>
+  </html>
+  
