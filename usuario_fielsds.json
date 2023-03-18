@@ -1,0 +1,62 @@
+[
+    {
+        "name": "id",
+        "label": "ID",
+        "type": "integer",
+        "required": true
+    },
+    {
+        "name": "username",
+        "label": "Nombre de usuario",
+        "type": "string",
+        "required": true
+    },
+    {
+        "name": "apellido_paterno",
+        "label": "Apellido paterno",
+        "type": "string",
+        "required": true
+    },
+    {
+        "name": "apellido_materno",
+        "label": "Apellido materno",
+        "type": "string",
+        "required": true
+    },
+    {
+        "name": "correo",
+        "label": "Correo electrónico",
+        "type": "string",
+        "required": true
+    },
+    {
+        "name": "password",
+        "label": "Contraseña",
+        "type": "string",
+        "required": true
+    },
+    {
+        "name": "old_password",
+        "label": "Contraseña anterior",
+        "type": "string",
+        "required": false
+    },
+    {
+        "name": "token",
+        "label": "Token",
+        "type": "string",
+        "required": true
+    },
+    {
+        "name": "created_at",
+        "label": "Fecha de creación",
+        "type": "datetime",
+        "required": true
+    },
+    {
+        "name": "modified_at",
+        "label": "Fecha de modificación",
+        "type": "datetime",
+        "required": true
+    }
+]
