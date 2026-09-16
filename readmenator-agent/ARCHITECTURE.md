@@ -1,0 +1,72 @@
+# Architecture
+
+## Internal Dependencies
+
+- (no internal resolved imports)
+
+## External Imports
+
+- `app.js` -> `add`
+- `app.js` -> `add`
+- `app.js` -> `addEventListener`
+- `app.js` -> `addEventListener`
+- `app.js` -> `addEventListener`
+- `app.js` -> `addField`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `appendChild`
+- `app.js` -> `campo`
+- `app.js` -> `click`
+- `app.js` -> `createElement`
+- `app.js` -> `createElement`
+- `app.js` -> `createElement`
+- `app.js` -> `createElement`
+- `app.js` -> `createElement`
+- `app.js` -> `createElement`
+- `app.js` -> `createElement`
+- `app.js` -> `createElement`
+- `app.js` -> `createElement`
+- `app.js` -> `createElement`
+- `app.js` -> `createElement`
+- `app.js` -> `createElement`
+- `app.js` -> `createElement`
+- `app.js` -> `createElement`
+- `app.js` -> `createObjectURL`
+- `app.js` -> `forEach`
+- `app.js` -> `getElementById`
+- `app.js` -> `getElementById`
+- `app.js` -> `getElementById`
+- `app.js` -> `preventDefault`
+- `app.js` -> `push`
+- `app.js` -> `querySelector`
+- `app.js` -> `querySelector`
+- `app.js` -> `querySelector`
+- `app.js` -> `querySelector`
+- `app.js` -> `querySelector`
+- `app.js` -> `querySelector`
+- `app.js` -> `querySelector`
+- `app.js` -> `querySelectorAll`
+- `app.js` -> `remove`
+- `app.js` -> `removeChild`
+- `app.js` -> `removeEventListener`
+- `app.js` -> `scrollIntoView`
+- `app.js` -> `stringify`
+- `crud_generator.py` -> `json`
+- `crud_generator.py` -> `os`
+- `models.js` -> `define`
+- `models.js` -> `require`
+- `models.js` -> `sequelize`
